@@ -1,0 +1,22 @@
+/* User info card CSS */
+.main-user-div{
+    background-color: aquamarine;
+    padding: 20px 30px;
+    margin: 20px 10px;
+}
+.main-user-div:hover{
+    background-color: beige;
+    padding: 20px 30px;
+    margin: 20px 10px;
+    animation: flip 0.5s;
+}
+
+/* Animation of Flipping the user card */
+@keyframes flip {
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotateY(180deg);
+    }
+}
